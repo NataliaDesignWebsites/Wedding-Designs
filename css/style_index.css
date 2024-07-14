@@ -16,12 +16,9 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
-
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
-  margin: 0;
 }
 
 #page {
@@ -1985,7 +1982,6 @@ form label {
   color:black;
 
 }
-
 
 .pricing {
   text-align: center;
