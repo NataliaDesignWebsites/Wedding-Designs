@@ -304,6 +304,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  background-position: center center; 
  
 }
 
@@ -330,6 +331,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 600px;
+    background-position: center center; 
   }
 }
 .fh5co-cover .display-t,
@@ -350,6 +352,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover-sm {
     height:600px;
+    background-position: center center; 
   }
 }
 .fh5co-cover.fh5co-cover-sm .display-t,
@@ -762,11 +765,19 @@ h1, h2, h3, h4, h5, h6, figure {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'CormorantGaramond-Regular';
+  src: url("../fonts/andrea&angel/CormorantGaramond-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .titulos_cursiva{
   font-family: 'Melinda';
   font-size: 70px;
   color:white;
 }
+
 
 #texto_simple{
     font-family: "Sofia Sans", sans-serif;
