@@ -747,6 +747,13 @@ h1, h2, h3, h4, h5, h6, figure {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'AnyaTamy';
+  src: url("../fonts/demo5/AnyaTamy.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 #titulo_cursiva {
     font-family: "Aphrodite", cursive;
     font-weight: 400;
